@@ -1,4 +1,4 @@
-# 🧠 Nome do Projeto
+# 🧠 Conversor de moedas
 
 > Projeto Java desenvolvido como parte dos estudos de programação. Ele demonstra o uso de estruturas de controle (`while`), leitura de entrada do usuário, e consumo de API utilizando a biblioteca `Gson`.
 
