@@ -16,7 +16,7 @@
 
 ## 🛠️ Tecnologias utilizadas
 
-- Java 24.0.1 (ou versão usada no seu projeto)
+- Java 24.0.1 
 - IntelliJ IDEA
 - Gson (Google JSON Parser)
 - API pública de conversão (exemplo: ExchangeRatesAPI)
