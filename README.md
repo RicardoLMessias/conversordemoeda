@@ -19,7 +19,7 @@
 - Java 24.0.1 
 - IntelliJ IDEA
 - Gson (Google JSON Parser)
-- API pública de conversão (exemplo: ExchangeRatesAPI)
+- [ExchangeRate-API](https://www.exchangerate-api.com/) (chave gratuita)
 
 ---
 
@@ -30,4 +30,5 @@
 - Java JDK instalado
 - IntelliJ IDEA (ou outro IDE Java)
 - Conexão com a internet (para consumir API)
+- Uma chave gratuita da [ExchangeRate-API](https://www.exchangerate-api.com/), definida na variável de ambiente `EXCHANGE_RATE_API_KEY`
 

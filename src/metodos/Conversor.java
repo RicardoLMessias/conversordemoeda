@@ -21,7 +21,13 @@ public class Conversor {
 
     public void valorConvertido(String de, String para) throws IOException, InterruptedException {
 
-        String endereco = "https://v6.exchangerate-api.com/v6/3257fe25bb65af9c427e4b5c/pair/" + de +"/"+ para +"/"+ valorParaConverter;
+        String apiKey = System.getenv("EXCHANGE_RATE_API_KEY");
+        if (apiKey == null || apiKey.isBlank()) {
+            System.out.println("Defina a variável de ambiente EXCHANGE_RATE_API_KEY com a sua chave da ExchangeRate-API.");
+            return;
+        }
+
+        String endereco = "https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + de +"/"+ para +"/"+ valorParaConverter;
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
